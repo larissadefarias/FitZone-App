@@ -1,56 +1,75 @@
-# Welcome to your Expo app 👋
+# FitZone
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo de compras e vendas de artigos esportivos: acessível, intuitivo e com muita variedade de produtos.
 
-## Get started
+<p align="center">
+  <img src="docs/tela-inicial.png" alt="Tela inicial do FitZone, com busca de produtos, banner e menu inferior" width="280">
+</p>
 
-1. Install dependencies
+## Sobre o projeto
 
+O FitZone foi pensado para quem gosta de esporte e quer encontrar tudo em um só lugar. O cliente navega pelas categorias, busca produtos, monta o carrinho e calcula o frete. A equipe da loja gerencia tudo por um painel administrativo.
+
+Projeto acadêmico desenvolvido na UNISUAM, no curso de Análise e Desenvolvimento de Sistemas, em 2026.
+
+## Funcionalidades
+
+**Para o cliente**
+- Cadastro, login e perfil
+- Busca de produtos e navegação por categorias
+- Carrinho de compras com calculadora
+- Cálculo de frete por meio de uma API de frete
+
+**Painel administrativo**
+- Gerenciamento de produtos
+- Gerenciamento de categorias
+- Acompanhamento de pedidos
+- Cadastro de funcionários
+
+## Tecnologias
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Native](https://reactnative.dev/) com [Expo](https://expo.dev/) e Expo Router
+- [Supabase](https://supabase.com/) (banco de dados)
+
+## Como rodar o projeto
+
+**Pré-requisitos:** [Node.js](https://nodejs.org/) instalado e um projeto no Supabase.
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/larissadefarias/FitZone-App.git
+   cd FitZone-App
+   ```
+
+2. Instale as dependências:
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Configure o Supabase com a URL e a chave do seu projeto. [Ajuste esta etapa com o arquivo ou a variável onde elas são definidas no código.]
 
+4. Inicie o app:
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+No terminal, você pode abrir o app no Android, no iOS (simulador), no navegador ou no aplicativo Expo Go.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Minha contribuição
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Neste projeto, fui responsável por:
+- as telas do painel administrativo (produtos, categorias, pedidos e funcionários)
+- as telas do cliente: produtos, detalhes do produto e categorias
+- a integração com a API de frete
+- o banco de dados
 
-## Get a fresh project
+## Autora
 
-When you're ready, run:
+**Larissa de Farias Santos**
+Estudante de Análise e Desenvolvimento de Sistemas, UNISUAM
+[GitHub](https://github.com/larissadefarias)
 
-```bash
-npm run reset-project
-```
+## Licença
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Veja o arquivo [LICENSE](LICENSE).
