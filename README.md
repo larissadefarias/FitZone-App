@@ -6,6 +6,10 @@ Aplicativo de compras e vendas de artigos esportivos: acessível, intuitivo e co
   <img src="docs/tela-inicial.png" alt="Tela inicial do FitZone, com busca de produtos, banner e menu inferior" width="280">
 </p>
 
+<p align="center">
+  <a href="docs/Telas.pdf">Ver todas as telas do app (PDF)</a>
+</p>
+
 ## Sobre o projeto
 
 O FitZone foi pensado para quem gosta de esporte e quer encontrar tudo em um só lugar. O cliente navega pelas categorias, busca produtos, monta o carrinho e calcula o frete. A equipe da loja gerencia tudo por um painel administrativo.
