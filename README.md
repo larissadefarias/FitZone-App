@@ -51,7 +51,7 @@ Projeto acadêmico desenvolvido na UNISUAM, no curso de Análise e Desenvolvimen
    npm install
    ```
 
-3. Configure o Supabase com a URL e a chave do seu projeto. [Ajuste esta etapa com o arquivo ou a variável onde elas são definidas no código.]
+3. A conexão com o banco fica em `src/services/supabase.ts`. Para usar o seu próprio projeto no Supabase, troque a URL e a chave pública (publishable) nesse arquivo pelas do seu projeto.
 
 4. Inicie o app:
    ```bash
